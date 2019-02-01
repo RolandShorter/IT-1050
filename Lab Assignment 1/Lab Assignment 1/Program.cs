@@ -15,7 +15,7 @@
 
             int age;
 
-            bool isCitizen;
+            bool isCitizen = true;
             bool canVote;
 
             int heightFeet;
@@ -42,15 +42,22 @@
             System.Console.Write("How tall in inches beyond your height in feet are you? ");
             heightInches = double.Parse(System.Console.ReadLine());
 
-            totalHeightInches = heightFeet + heightInches;
+            totalHeightInches = heightFeet + heightInches;y
 
-            totalHeightCM = ((heightFeet * 12) + totalHeightInches) * 2.54;
+            totalHeightCM = ((heightFeet * 12) + totalHeightInches) * 2.54
 
             System.Console.Write("How old are you? ");
             age = int.Parse(System.Console.ReadLine());
 
-            System.Console.Write("Are you a citizen? ");
-          isCitizen = bool System.Console.ReadLine();
+            System.Console.Write("Are you a citizen? (yes/no)");
+            isCitizen = System.Console.ReadLine();
+            
+            {
+                
+            }
+            
+
+
 
 
 
