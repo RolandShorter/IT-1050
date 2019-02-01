@@ -44,7 +44,7 @@
 
             totalHeightInches = heightFeet + heightInches;y
 
-            totalHeightCM = ((heightFeet * 12) + totalHeightInches) * 2.54
+            totalHeightCM = ((heightFeet * 12) + totalHeightInches) * 2.54;
 
             System.Console.Write("How old are you? ");
             age = int.Parse(System.Console.ReadLine());
