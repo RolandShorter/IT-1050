@@ -34,7 +34,7 @@
             System.Console.Write("And your last name? ");
             lastName = System.Console.ReadLine();
 
-            System.Console.WriteLine(firstName  +   middleInitial  +  lastName);
+            
 
             System.Console.Write("How tall are you in feet? ");
             heightFeet = int.Parse(System.Console.ReadLine());
@@ -50,7 +50,7 @@
             age = int.Parse(System.Console.ReadLine());
 
             System.Console.Write("Are you a citizen? (yes/no)");
-            if (isCitizen = true)
+            if  (isCitizen = true)
             {
                 canVote = true;
             }
