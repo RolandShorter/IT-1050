@@ -34,7 +34,7 @@
             System.Console.Write("And your last name? ");
             lastName = System.Console.ReadLine();
 
-            fullName = (  firstName  +  middleInitial  +   lastName   );
+            fullName =  firstName  + " " + middleInitial  + "." + lastName   ;
 
 
 
@@ -51,15 +51,11 @@
             System.Console.Write("How old are you? ");
             age = int.Parse(System.Console.ReadLine());
 
-           // System.Console.Write("Are you a citizen? (yes/no)");
-           // if  (isCitizen == true)
-           // {
-              //  canVote = true;
-           // }
-           // else
-           // {
-             //   isCitizen = false;
-           // }
+            System.Console.Write("Are you a citizen? ");
+            isCitizen = (System.Console.ReadLine());
+            bool isCitizen = 
+
+
 
             System.Console.WriteLine(fullName);
             System.Console.WriteLine(totalHeightCM = ((heightFeet * 12) + totalHeightInches) * 2.54);
