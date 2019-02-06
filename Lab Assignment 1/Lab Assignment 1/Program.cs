@@ -51,14 +51,16 @@
             System.Console.Write("How old are you? ");
             age = int.Parse(System.Console.ReadLine());
 
-            System.Console.Write("Are you a citizen? ");
-            isCitizen = (System.Console.ReadLine());
-            bool isCitizen = 
+            System.Console.Write("Are you a citizen?(true/false) ");
+            isCitizen = bool.Parse(System.Console.ReadLine());
+            canVote = isCitizen && age >= 18;
+            
 
 
 
             System.Console.WriteLine(fullName);
             System.Console.WriteLine(totalHeightCM = ((heightFeet * 12) + totalHeightInches) * 2.54);
+            System.Console.WriteLine(canVote);
             System.Console.ReadKey();
 
 
