@@ -4,10 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Person p1;
-            p1 = new Person();
-            p1.GetInformation();
-            
+            Person person1 = new Person();
+            person1.GetInformation();
+
+            Person person2 = new Person();
+            person2.GetInformation();
+
         }
     }
 }
