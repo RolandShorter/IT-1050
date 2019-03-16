@@ -5,7 +5,7 @@
         public string FirstName;
         public string LastName;
         public int Age;
-        public string Spouse;
+        public Person Spouse;
    
         public static int SumOfAllAges;
 
@@ -18,7 +18,7 @@
             System.Console.WriteLine(this.GetFullName());
             System.Console.WriteLine(this.Age);
         }
-        public void GetInformation()
+        public void GetUserInfo()
         {
             System.Console.Write("What is your First Name  ");
             this.FirstName = System.Console.ReadLine();
@@ -30,7 +30,19 @@
             this.Age = int.Parse (System.Console.ReadLine());
 
         }
+        public void GetUserSpouseNameAndAge()
+        {
+            System.Console.Write("Are you married? y/n");
+            
+            if (System.Console.ReadLine().ToLower().StartsWith("y"))
+            {
+           this.Spouse = new Person();
+            this.Spouse.GetUserInfo();
+            this.Spouse.Spouse = this;
+
+            }
+        }
 
     
     }
-}
+};

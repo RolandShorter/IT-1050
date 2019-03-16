@@ -5,10 +5,10 @@
         static void Main(string[] args)
         {
             Person person1 = new Person();
-            person1.GetInformation();
+            person1.GetUserInfo();
 
             Person person2 = new Person();
-            person2.GetInformation();
+            person2.GetUserInfo();
 
         }
     }
