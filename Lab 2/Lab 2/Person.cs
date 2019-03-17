@@ -8,6 +8,12 @@
         public Person Spouse;
    
         public static int SumOfAllAges;
+        public static int Count;
+
+        public static double AverageAge()
+        {
+            return (double)Person.SumOfAllAges / (double)Person.Count;
+        }
 
         public string GetFullName()
         {
@@ -28,6 +34,11 @@
 
             System.Console.Write("What is your Age  ");
             this.Age = int.Parse (System.Console.ReadLine());
+
+            Person.Count ++;
+            Person.SumOfAllAges += this.Age;
+           
+            
 
         }
         public void GetUserSpouseNameAndAge()
