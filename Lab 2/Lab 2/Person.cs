@@ -35,7 +35,7 @@
             System.Console.Write("What is your Age  ");
             this.Age = int.Parse (System.Console.ReadLine());
 
-            Person.Count ++;
+            Person.Count++;
             Person.SumOfAllAges += this.Age;
            
             
@@ -52,7 +52,9 @@
             this.Spouse.Spouse = this;
 
             }
+            
         }
+         
 
     
     }

@@ -12,6 +12,7 @@
             person2.GetUserInfo();
             person2.GetUserSpouseNameAndAge();
 
+           
             System.Console.WriteLine("Average Age is " + Person.AverageAge());
             System.Console.ReadKey();
 
