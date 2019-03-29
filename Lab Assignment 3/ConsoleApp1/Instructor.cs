@@ -6,10 +6,10 @@ namespace Lab_Assignment_3
         public string Name;
         public string CourseName;
 
-        public Instructor(string thierName, string thierCourseName)
+        public Instructor(string Name, string CourseName)
         {
-            this.Name = thierName;
-            this.CourseName = thierCourseName;
+            this.Name = Name;
+            this.CourseName = CourseName;
         }
     }
 
