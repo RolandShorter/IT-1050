@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Lab Assignment 3\Program.csproj", "{49FD3F60-AB80-4894-9FD0-2ECDF6058A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instructor", "ConsoleApp1\Instructor.csproj", "{4A6F89DA-2269-4AF7-9AE8-9E7EF8DFE672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student", "Student\Student.csproj", "{6D2769DF-628C-43A1-B552-408211C3A1BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49FD3F60-AB80-4894-9FD0-2ECDF6058A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FD3F60-AB80-4894-9FD0-2ECDF6058A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FD3F60-AB80-4894-9FD0-2ECDF6058A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FD3F60-AB80-4894-9FD0-2ECDF6058A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6F89DA-2269-4AF7-9AE8-9E7EF8DFE672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6F89DA-2269-4AF7-9AE8-9E7EF8DFE672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6F89DA-2269-4AF7-9AE8-9E7EF8DFE672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6F89DA-2269-4AF7-9AE8-9E7EF8DFE672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D2769DF-628C-43A1-B552-408211C3A1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2769DF-628C-43A1-B552-408211C3A1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2769DF-628C-43A1-B552-408211C3A1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2769DF-628C-43A1-B552-408211C3A1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A43ED885-F1A4-471A-87A4-49E2B07574EA}
+	EndGlobalSection
+EndGlobal
