@@ -15,9 +15,9 @@
             person2.GetUserSpouseNameAndAge();
             person2.PrintNameAndAge();
             person2.Spouse.PrintNameAndAge();
+
             
-            
-            System.Console.WriteLine("Average Age is " + Person.AverageAge());
+            System.Console.WriteLine("Average Age for everyone is " + Person.AverageAge());
             System.Console.ReadKey();
 
         }
