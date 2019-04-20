@@ -6,7 +6,7 @@ namespace Lab_Assignment_3
     {
         public string teacherName;
         public string courseName;
-        public int setGrade;
+        
 
         public Instructor(string teacherName, string courseName)
         {
@@ -17,12 +17,12 @@ namespace Lab_Assignment_3
         public void SetStudentGrade(Student student, int setGrade)
         {
             student.grade += setGrade;
-            System.Console.WriteLine("The Instructor has set " + student.name + "grade to" + setGrade);
+            System.Console.WriteLine(this.teacherName + " has set " + student.name + " grade to " + setGrade);
         }
 
-        public void Print( Instructor instructor, string courseName)
+        public void Print()
         {
-            System.Console.WriteLine(instructor.teacherName + " " + courseName);
+            System.Console.WriteLine(teacherName + " " + courseName);
                 
         }
 

@@ -6,16 +6,17 @@ namespace Lab_Assignment_3
     {
         public string name;
         public int grade;
-        public Student Instructor;
+        public Instructor instructor;
 
             public Student( string name, int grade, Instructor instructor)
         {
             this.name = name;
             this.grade = grade;
+            this.instructor = instructor; 
         }
-        public void Print(Instructor instructor)
+        public void Print()
         {
-            System.Console.WriteLine(this.name + "has a grade of" + " " + "from" + instructor.teacherName ".");
+            System.Console.WriteLine(this.name + " has a grade of "  + this.grade + " " + "from " + instructor.teacherName + ".");
         }
     }
 }
