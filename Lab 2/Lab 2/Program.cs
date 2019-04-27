@@ -9,7 +9,7 @@
             person1.GetUserSpouseNameAndAge();
             person1.PrintNameAndAge();
             person1.Spouse.PrintNameAndAge();
-
+            
             Person person2 = new Person();
             person2.GetUserInfo();
             person2.GetUserSpouseNameAndAge();
