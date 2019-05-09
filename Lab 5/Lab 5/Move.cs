@@ -19,6 +19,9 @@ namespace Lab_5
             targetY = 0;
             destinationX = 0;
             destinationY = 0;
+            Exit = false;
         }
+
+        public bool Exit { get; set; }
     }
 }
