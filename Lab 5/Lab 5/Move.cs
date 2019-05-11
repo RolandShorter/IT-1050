@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab_5
 {
-    public class Move : Player
+    class Move
     {
+
         private int targetX;
         private int targetY;
         private int destinationX;
@@ -23,5 +24,6 @@ namespace Lab_5
         }
 
         public bool Exit { get; set; }
+
     }
 }
